@@ -2,11 +2,11 @@
 
 Mi configuracion de CachyOS + Hyprland, gestionada con [GNU Stow](https://www.gnu.org/software/stow/).
 
-## Restaurar despues de formatear
+## Instalacion
 
 ```bash
 sudo pacman -S git
-git clone https://github.com/<usuario>/dotfiles ~/dotfiles
+git clone https://github.com/Niquit0u/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
