@@ -1,0 +1,11 @@
+# Secretos
+opencode/.config/opencode/service.json
+*.key
+*.pem
+.env
+
+# Basura
+*.bak*
+*.tmp
+__pycache__/
+*.pyc

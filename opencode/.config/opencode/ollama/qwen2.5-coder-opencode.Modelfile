@@ -1,0 +1,15 @@
+# Modelo derivado de qwen2.5-coder:7b para usar con OpenCode + adaptador.
+# Crear con:
+#   ollama create qwen2.5-coder:7b-opencode -f ~/.config/opencode/ollama/qwen2.5-coder-opencode.Modelfile
+FROM qwen2.5-coder:7b
+
+# Ollama usa 4096 por defecto; el prompt de OpenCode + herramientas no cabe ahí.
+PARAMETER num_ctx 32768
+
+# Respuestas más deterministas y menos "creativas" con el formato.
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.05
+
+# Mantener el modelo cargado entre pasos del agente.
+PARAMETER num_predict -1

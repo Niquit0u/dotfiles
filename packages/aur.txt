@@ -1,0 +1,6 @@
+android-studio
+droidcam
+spotify
+visual-studio-code-bin
+wl-gammarelay-rs
+yay-bin

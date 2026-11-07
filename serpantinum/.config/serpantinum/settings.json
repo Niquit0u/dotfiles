@@ -1,0 +1,274 @@
+{
+  "general": {
+    "language": "es",
+    "avatarPath": "",
+    "muteSfx": false,
+    "weatherInterval": 15,
+    "weatherUnit": "metric",
+    "location": {
+      "ip": "186.139.248.155",
+      "latitude": -38.951593,
+      "longitude": -68.058999,
+      "city": "Neuquen",
+      "region": "Neuquen",
+      "region_code": "Q",
+      "country_name": "Argentina",
+      "country_code": "AR",
+      "postal": "8300",
+      "timezone": "America/Argentina/Salta",
+      "utc_offset": "-0300",
+      "currency": "ARS",
+      "languages": "es-AR,en,it,de,fr,gn",
+      "asn": "AS7303",
+      "org": "Telecom Argentina S.A.",
+      "source": "ipapi.co",
+      "updated_at": 1792834548
+    },
+    "sfxVolume": 13,
+    "quickactions": true,
+    "settingsSeparateWindow": false,
+    "screenshotCaptureOnRelease": true
+  },
+  "syspanel": {
+    "clipExpandProgress": 0,
+    "clipExpanded": false,
+    "clipState": 1
+  },
+  "bar": {
+    "position": "top",
+    "width": 100,
+    "height": 40,
+    "opacity": 100,
+    "style": "fill",
+    "time": {
+      "format": "HH:mm:ss"
+    },
+    "autohide": false,
+    "autohideTimeout": 1000,
+    "modules": {
+      "left": [
+        "left",
+        "workspaces",
+        "media",
+        "vis"
+      ],
+      "center": [
+        [
+          "timedate",
+          "info",
+          "weather"
+        ]
+      ],
+      "right": [
+        "sysmon",
+        "kb",
+        "tray",
+        [
+          "wifi",
+          "bt",
+          "vol",
+          "bat"
+        ]
+      ]
+    },
+    "menuStyle": "button",
+    "menuShowLauncher": true,
+    "workspaceCount": 8,
+    "hideEmptyWorkspaces": false,
+    "workspacesStyle": "pacman",
+    "timeStyle": "classic",
+    "visBarCount": 16,
+    "sysmonStyle": "circle",
+    "sysmonStats": [
+      "cpu",
+      "ram",
+      "temp",
+      "disk"
+    ],
+    "batShowPercent": true,
+    "batShowIcon": true,
+    "btStyle": "button",
+    "kbStyle": "text",
+    "mediaInfoMode": "duration",
+    "mediaWidth": 150,
+    "mediaShowIcon": true,
+    "mediaShowControls": true,
+    "groupColors": {
+      "g_timedate": "#ce5d97",
+      "g_kb": "#d14d85",
+      "g_wifi": "#4385be"
+    },
+    "distinctPills": false,
+    "centerByEdges": true,
+    "visAlignment": "bottom",
+    "visContinuous": true,
+    "batStyle": "classic",
+    "wifiStyle": "text",
+    "volStyle": "button"
+  },
+  "theme": {
+    "fontFamily": "AdwaitaMono Nerd Font",
+    "borderRadius": 10,
+    "activePreset": "Flexoki Dark",
+    "matugen": false,
+    "colors": {
+      "base": "#100f0f",
+      "blue": "#4385be",
+      "crust": "#282726",
+      "green": "#879a39",
+      "mantle": "#1c1b1a",
+      "maroon": "#af3029",
+      "mauve": "#ce5d97",
+      "overlay0": "#403e3c",
+      "overlay1": "#575653",
+      "overlay2": "#706f6c",
+      "peach": "#da702c",
+      "pink": "#d14d85",
+      "red": "#d14d41",
+      "sapphire": "#205ea6",
+      "subtext0": "#878580",
+      "subtext1": "#b7b5ac",
+      "surface0": "#1c1b1a",
+      "surface1": "#282726",
+      "surface2": "#343331",
+      "teal": "#3aa99f",
+      "text": "#cecdc3",
+      "yellow": "#d0a215"
+    },
+    "blurBackground": false,
+    "blurStyle": "blur"
+  },
+  "idle": {
+    "enabled": true,
+    "actions": {
+      "dim": {
+        "id": "dim",
+        "timeout": 150,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "dpms": {
+        "id": "dpms",
+        "timeout": 450,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "lock": {
+        "id": "lock",
+        "timeout": 300,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "suspend": {
+        "id": "suspend",
+        "timeout": 600,
+        "enabled": false,
+        "respectInhibitors": true,
+        "mprisInhibit": true,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      }
+    },
+    "manualInhibit": false,
+    "caffeineStartTime": 0,
+    "caffeineEndTime": 0
+  },
+  "notifications": {
+    "dnd": true,
+    "position": "top right",
+    "sound": true,
+    "soundFile": "/home/nico/.local/share/serpantinum/src/assets/sounds/notifications/Botanica.wav"
+  },
+  "display": {
+    "monitors": {
+      "eDP-1": {
+        "enabled": false,
+        "scale": 1
+      },
+      "HDMI-A-2": {
+        "powerEnabled": true,
+        "scale": 1,
+        "enabled": false
+      },
+      "DP-2": {
+        "enabled": false,
+        "powerEnabled": true,
+        "scale": 1
+      }
+    }
+  },
+  "dock": {
+    "enabled": false,
+    "position": "bottom",
+    "onTop": true,
+    "elementSize": 44,
+    "floating": false,
+    "background": true,
+    "exclusive": false,
+    "autohide": false,
+    "smartAutohide": true,
+    "autohideTimeout": 1000,
+    "editing": false,
+    "apps": [
+      {
+        "name": "Kitty",
+        "comment": "Fast, feature-rich, GPU based terminal",
+        "desktop_id": "kitty.desktop",
+        "icon": "kitty"
+      },
+      {
+        "name": "Files",
+        "comment": "Access and organize files",
+        "desktop_id": "org.gnome.Nautilus.desktop",
+        "icon": "org.gnome.Nautilus"
+      }
+    ],
+    "overrideBoundsCorrection": false,
+    "enableScrolling": false,
+    "visibleElements": 7,
+    "scrollingElements": 7,
+    "maxVisibleElements": 7,
+    "maxElements": 7,
+    "hoverScale": 120,
+    "cascadeScale": false,
+    "focusRunning": true,
+    "showRunningIndicators": true,
+    "showRunningApps": false,
+    "runningScope": "auto"
+  },
+  "wallpaperDir": "/home/nico/Pictures/Wallpapers",
+  "launcher": {
+    "position": "top",
+    "width": 600,
+    "itemCount": 6,
+    "terminalCommand": "kitty -e",
+    "smartRanking": true,
+    "searchProvider": "brave"
+  },
+  "osd": {
+    "horizontalPosition": 50,
+    "verticalPosition": 90,
+    "orientation": "horizontal",
+    "showCapsLock": true,
+    "showNumLock": true,
+    "showAirplane": false,
+    "attachToBar": true
+  },
+  "widgets": {
+    "hideBarInRedactor": true
+  }
+}
+

@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart ratbagd when the Logitech mouse connects
+After=ratbagd.service
+
+[Service]
+ExecStart=/usr/local/bin/ratbagd-mouse-watch.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,17 @@
+[Unit]
+Description=OpenCode <-> Ollama tool-call adapter
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nico/.config/opencode/ollama-adapter/server.py
+Environment=ADAPTER_PORT=11435
+Environment=ADAPTER_TOOLS=read,edit,write,glob,grep,shell,skill
+Environment=ADAPTER_NUM_BATCH=3072
+Environment=ADAPTER_NUM_THREAD=6
+Environment=ADAPTER_SYSTEM_SKIP=qwen3-coder
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
