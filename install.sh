@@ -41,7 +41,4 @@ echo "==> Shell por defecto: fish"
 [ "$(getent passwd "$USER" | cut -d: -f7)" = "/usr/bin/fish" ] || chsh -s /usr/bin/fish
 
 echo
-echo "Listo. Pasos manuales pendientes (ver README.md):"
-echo "  - Recrear ~/.config/opencode/service.json (contiene una contrasena, no esta en el repo)"
-echo "  - Instalar Piper/libratbag a mano si los sigues usando"
-echo "  - Reiniciar la sesion"
+echo "Listo. Reinicia la sesion para aplicar todo."
