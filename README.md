@@ -49,8 +49,3 @@ mv ~/.config/waybar ~/dotfiles/waybar/.config/
 cd ~/dotfiles && stow -t ~ waybar
 ```
 Luego agregala a la lista `PACKAGES` de `install.sh`.
-
-## Pasos manuales
-
-- `~/.config/opencode/service.json` contiene una contrasena y **no** esta en el repo: recrealo a mano.
-- Piper 0.8 / libratbag 0.18 se instalaron a mano desde el codigo fuente, no via pacman.
